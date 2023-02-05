@@ -1,0 +1,18 @@
+
+Author: Dakota Sadler
+
+Project Name: UDP Socket Geometry Calculator
+
+Description:
+A UDP client-server program that allows a client to connect to a server that allows connected users to calculate geometrical shapes.
+Server supports multiple concurrent client connections, each with independent calculations
+
+Running Program:
+- From a terminal, run the Makefile to create the client and server
+- Within the client and server conf files set the respected IP and port of the server like so
+    SERVER_IP= 127.0.1.1
+- Run the Server file, passing the server.conf file as a parameter
+- Once the Server is running, run the client passing the client.conf as a parameter
+- When prompted, say a greeting to the server to establish a connection (HELO 127.0.1.1)
+- Once the connection and greeting have been established, send "HELP" for command information
+
